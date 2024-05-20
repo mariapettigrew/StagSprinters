@@ -6,7 +6,7 @@ from datetime import datetime
 from peewee import IntegrityError
 
 app = Flask(__name__)
-app.secret_key = b"\xbc70\xc0\xfc\x9bv\xbd\xe6\xad\xb3'\x86?\xa6\x93r\x8e\xc6c\x00p\x9b\x91"  #secret key
+app.secret_key = #secret key
 
 login_manager = LoginManager()
 login_manager.init_app(app)
